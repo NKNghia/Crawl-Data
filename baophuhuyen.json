@@ -1,0 +1,14 @@
+{
+  "url": "https://baophuyen.vn",
+  "number_of_page": 3,
+  "xpath_title": "//div[@class='title']/text()",
+  "xpath_body": "//p[@style='text-align: justify;']//text()",
+  "xpath_time": "//div[@class='date']/text()",
+  "xpath_author": "//p[@style='text-align: right;']/text()",
+  "directory":"F:/",
+  "xpath_categories": "//ul[@class='ngvMenu ngvMenuHover']//li//@href",
+  "xpath_links": "//div[@class='title']//@href",
+  "categories": ["https://baophuyen.vn/76/chinh-tri.html?page={}", "https://baophuyen.vn/82/kinh-te.html?page={}",
+  "https://baophuyen.vn/164/phap-luat.html?page={}"]
+
+}

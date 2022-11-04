@@ -1,0 +1,14 @@
+{
+  "url": "https://zingnews.vn",
+  "number_of_page": 3,
+  "xpath_title": "//h1[@class='the-article-title']//text()",
+  "xpath_body": "//div[@class='the-article-body']//p//text()",
+  "xpath_time": "//li[@class='the-article-publish']//text()",
+  "xpath_author": "//li[@class='the-article-author']/text()",
+  "directory":"F:/",
+  "xpath_categories": "//ul//li//@href",
+  "xpath_links": "//p[@class='article-title']//@href",
+   "categories": ["https://zingnews.vn/the-gioi.html",
+    "https://zingnews.vn/kinh-doanh-tai-chinh.html", "https://zingnews.vn/cong-nghe.html",
+   "https://zingnews.vn/the-thao.html"]
+  }

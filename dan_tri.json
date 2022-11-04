@@ -1,0 +1,13 @@
+{
+  "url": "https://dantri.com.vn",
+  "number_of_page": 3,
+  "xpath_title": "//h1[@class='dt-news__title']//text()",
+  "xpath_body": "//div[@class='dt-news__content']//p//text()",
+  "xpath_time": "//span[@class='dt-news__time']//text()",
+  "xpath_author": "//p[@style='text-align:right']//text()",
+  "directory":"F:/",
+  "xpath_categories": "//li[@class='dropdown dropdown--hover']//@href",
+  "xpath_links": "//h3[@class='news-item__title']//@href",
+  "categories": ["https://dantri.com.vn/kinh-doanh/trang-{}.htm",
+    "https://dantri.com.vn/the-gioi/trang-{}.htm", "https://dantri.com.vn/the-thao/trang-{}.htm"]
+  }
